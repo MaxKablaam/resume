@@ -1,9 +1,9 @@
 {
-    "url": "https://demo-resume.netlify.app",
+    "url": "https://eric-max-kaplin-resume.netlify.app",
     "lang": "en",
-    "locale": "en_us",
+    "locale": "en_ca",
     "colors": {
-        "primary": "#005b96",
+        "primary": "#06283f",
         "secondary": "#fc6767"
     }
 }
