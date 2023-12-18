@@ -1,12 +1,12 @@
 {
-    "name": "Anna Quincey",
-    "occupation": "Front-End Developer",
-    "location": "Vienna, AT",
-    "avatar": "avatar.jpg",
-    "pronouns": "she/her",
-    "email": "anna.quincey@gmail.com",
-    "telephone": "+01 23 456 789",
-    "website": "https://annaquincey.dev",
+    "name": "Eric Max Kaplin",
+    "occupation": "Art & Tech Director",
+    "location": "Tiohtià:ke/Montreal, QC",
+    "avatar": "",
+    "pronouns": "he/him",
+    "email": "eric@maxkaplin.com",
+    "telephone": "",
+    "website": "https://ericmaxkaplin.com",
     "skills": [
         "HTML",
         "CSS",
@@ -21,24 +21,20 @@
             "level": "native"
         },
         {
-            "name": "German",
-            "level": "fluent"
-        },
-        {
             "name": "French",
-            "level": "basic"
+            "level": "fluent"
         }
     ],
     "social": [
         {
             "name": "Github",
-            "user": "@annaquincey",
-            "url": "https://github.com/annaquincey"
+            "user": "@maxkablaam",
+            "url": "https://github.com/maxkablaam"
         },
         {
             "name": "LinkedIn",
-            "user": "AnnaQncy",
-            "url": "https://www.linkedin.com/in/annaquincey"
+            "user": "Eric Max Kaplin",
+            "url": "https://www.linkedin.com/in/eric-max-kaplin"
         }
     ]
 }
