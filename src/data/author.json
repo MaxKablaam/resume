@@ -2,17 +2,22 @@
     "name": "Eric Max Kaplin",
     "occupation": "Art & Tech Director",
     "location": "Tiohtià:ke/Montreal, QC",
-    "avatar": "",
+    "avatar": "profile_outdoors.png",
     "pronouns": "he/him",
     "email": "eric@maxkaplin.com",
     "telephone": "",
     "website": "https://ericmaxkaplin.com",
     "skills": [
-        "HTML",
-        "CSS",
-        "Javascript / ES6",
-        "UI Design",
-        "React",
+        "Animation",
+        "Visual FX",
+        "Blender",
+        "Houdini",
+        "Maya",
+        "Unreal Engine",
+        "Unity",
+        "C#",
+        "Python",
+        "Virtual Reality",
         "Git"
     ],
     "languages": [
@@ -35,6 +40,11 @@
             "name": "LinkedIn",
             "user": "Eric Max Kaplin",
             "url": "https://www.linkedin.com/in/eric-max-kaplin"
+        },
+        {
+            "name": "Instagram",
+            "user": "ericmaxkaplin",
+            "url": "https://www.instagram.com/ericmaxkaplin/"
         }
     ]
 }
