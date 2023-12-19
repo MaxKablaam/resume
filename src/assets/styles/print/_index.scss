@@ -2,7 +2,11 @@
     // GENERAL PRINT RESET
 
     @page {
-        margin: 1cm 3cm;
+        margin: 1.5cm 3cm;
+        margin-bottom: 50px;
+        @bottom-right {
+            content: counter(page);
+        }
     }
 
     :root {
@@ -53,6 +57,7 @@
 
     .header {
         padding: 0 !important;
+        page-break-after: avoid;
     }
 
     .sidebar {
@@ -84,5 +89,13 @@
     .entrylist__item,
     .entry {
         page-break-inside: avoid;
+    }
+
+    #section-introduction {
+        page-break-after: avoid;
+    }
+
+    #author-copyright {
+        display: none;
     }
 }
