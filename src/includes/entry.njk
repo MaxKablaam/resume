@@ -1,7 +1,20 @@
 <article class="entry">
     <div class="entry__header">
-        <h3 class="entry__title p-name">{{ entry.data.title }}</h3>
-        
+        {% if entries == collections.projects %}
+            <div class="entry__project-container">
+                <h3 class="entry__project-title p-name">{{ entry.data.projectTitle }}</h3>
+                {% if entry.data.releaseDate %}
+                    <p class="entry__project-release-date" datetime="{{ entry.data.releaseDate | dateToFormat("yyyy-MM-dd") }}">{{entry.data.releaseDate | dateToFormat("yyyy")}}</p>
+                {% endif %}
+            </div>
+            {% if entry.data.role %}
+                <p class="entry__project-role">{{ entry.data.role }}</p>
+            {% endif %}
+        {% else %}
+            <h3 class="entry__title p-name">{{ entry.data.title }}</h3>
+        {% endif %}
+
+        {% if entry.data.start %}
         <p class="entry__time">
             <time class="dt-start" datetime="{{ entry.data.start | dateToFormat("yyyy-MM-dd") }}">
                 {{ entry.data.start | dateToFormat("MM/yyyy") }}
@@ -15,6 +28,15 @@
                 <span>{{ strings.labels.present }}</span>
             {% endif %}
         </p>
+        {% endif %}
+
+        {% if entry.data.dateReceived %}
+        <p class="entry__time">
+            <time class="dt-start" datetime="{{ entry.data.dateReceived | dateToFormat("yyyy-MM-dd") }}">
+                {{ entry.data.dateReceived | dateToFormat("MM/yyyy") }}
+            </time>
+        </p>
+        {% endif %}
 
         {% if entry.data.organization %}
             <p class="entry__organization p-org h-card">

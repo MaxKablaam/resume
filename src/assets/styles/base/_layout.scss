@@ -58,3 +58,12 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.education-awards-container {
+    display: flex;
+    gap: 5%;
+
+    @include mq-down(xl) {
+        flex-direction: column;
+    }
+}

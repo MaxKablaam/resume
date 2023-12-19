@@ -47,7 +47,7 @@ module.exports = function (config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
-    const collections = ['work', 'education']
+    const collections = ['work', 'education', 'projects', 'awards']
     collections.forEach((name) => {
         config.addCollection(name, function (collection) {
             const folderRegex = new RegExp(`\/${name}\/`)
@@ -75,6 +75,12 @@ module.exports = function (config) {
 
     // Deep-Merge
     config.setDataDeepMerge(true)
+
+    // Debug logging
+    config.addFilter("debug", function(value) {
+        console.log(value);
+        return value;
+    });
 
     // Base Config
     return {
