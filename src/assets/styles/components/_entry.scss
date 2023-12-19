@@ -20,7 +20,25 @@
     &__title {
     }
 
-    &__organization {
+    &__project-title {
+        font-style: italic;
+    }
+
+    &__project-release-date {
+        color: $gray;
+        font-size: 1rem;
+        letter-spacing: 0.125em;
+        text-transform: uppercase;
+    }
+
+    &__project-container {
+        display: flex;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        align-items: end;
+    }
+
+    &__organization, &__project-role {
         font-size: 1.125rem;
     }
 

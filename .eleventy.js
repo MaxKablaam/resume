@@ -76,6 +76,12 @@ module.exports = function (config) {
     // Deep-Merge
     config.setDataDeepMerge(true)
 
+    // Debug logging
+    config.addFilter("debug", function(value) {
+        console.log(value);
+        return value;
+    });
+
     // Base Config
     return {
         dir: {
