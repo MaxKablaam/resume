@@ -4,9 +4,6 @@
     @page {
         margin: 1.5cm 3cm;
         margin-bottom: 50px;
-        @bottom-right {
-            content: counter(page);
-        }
     }
 
     :root {
