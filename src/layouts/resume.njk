@@ -25,25 +25,30 @@ layout: base
         <section class="section" id="section-projects">
             <h2 class="section__title">{{ strings.titles.projects }}</h2>
             {% set entries = collections.projects %}
-            {% include "entrylist.njk" %}
-        </section>
-        {% endif %}
-
-        <section class="section" id="section-education">
-            <h2 class="section__title">{{ strings.titles.education }}</h2>
-            {% set entries = collections.education %}
-            {% set microformat = "p-education" %}
-            {% include "entrylist.njk" %}
-        </section>
-        
-        {% if collections.awards.length %}
-        <section class="section" id="section-awards">
-            <h2 class="section__title">{{ strings.titles.awards }}</h2>
-            {% set entries = collections.awards %}
             {% set microformat = "p-experience" %}
             {% include "entrylist.njk" %}
         </section>
         {% endif %}
+
+        <div class="education-awards-container">
+
+            <section class="section" id="section-education">
+                <h2 class="section__title">{{ strings.titles.education }}</h2>
+                {% set entries = collections.education %}
+                {% set microformat = "p-education" %}
+                {% include "entrylist.njk" %}
+            </section>
+            
+            {% if collections.awards.length %}
+            <section class="section" id="section-awards">
+                <h2 class="section__title">{{ strings.titles.awards }}</h2>
+                {% set entries = collections.awards %}
+                {% set microformat = "p-experience" %}
+                {% include "entrylist.njk" %}
+            </section>
+            {% endif %}
+        
+        </div>
 
     {% if author.skills or author.languages %}
         <div class="grid grid--2col">
