@@ -1,6 +1,6 @@
 ---
 title: Lead Art & Tech Director
-organization: ED Films
+organization: E.D. Films
 organizationUrl: https://www.edfilms.net
 location: Montreal, QC
 start: 2022-08-22

@@ -1,6 +1,6 @@
 ---
 title: Technical Animation Developer
-organization: ED Films
+organization: E.D. Films
 organizationUrl: https://www.edfilms.net
 location: Montreal, QC
 start: 2017-07-03
