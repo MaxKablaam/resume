@@ -1,12 +1,21 @@
 <article class="entry">
     <div class="entry__header">
         {% if entries == collections.projects %}
-            <div class="entry__project-container">
-                <h3 class="entry__project-title p-name">{{ entry.data.projectTitle }}</h3>
+            {% if entry.data.projectUrl %}
+                <a href={{ entry.data.projectUrl}} target="_blank">
+                    <h3 class="entry__project-title p-name">{{ entry.data.projectTitle }}
+                    {% if entry.data.releaseDate %}
+                        <span class="entry__project-release-date entry__time" datetime="{{ entry.data.releaseDate | dateToFormat("yyyy-MM-dd") }}">{{entry.data.releaseDate | dateToFormat("yyyy")}}</span>
+                    {% endif %}
+                    </h3>
+                </a>
+            {% else %}
+                <h3 class="entry__project-title p-name">{{ entry.data.projectTitle }}
                 {% if entry.data.releaseDate %}
-                    <p class="entry__project-release-date" datetime="{{ entry.data.releaseDate | dateToFormat("yyyy-MM-dd") }}">{{entry.data.releaseDate | dateToFormat("yyyy")}}</p>
+                    <span class="entry__project-release-date entry__time" datetime="{{ entry.data.releaseDate | dateToFormat("yyyy-MM-dd") }}">{{entry.data.releaseDate | dateToFormat("yyyy")}}</span>
                 {% endif %}
-            </div>
+                </h3>
+            {% endif %}
             {% if entry.data.role %}
                 <p class="entry__project-role">{{ entry.data.role }}</p>
             {% endif %}
