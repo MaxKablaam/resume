@@ -1,7 +1,7 @@
 ---
 projectTitle: The Ascension Island EP
 projectUrl: 
-role: Composer, musician
+role: Composer, Musician
 organization: Sweet Mother Logic
 organizationUrl: https://sweetmotherlogic.bandcamp.com/
 location: Montreal, QC
