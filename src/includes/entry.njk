@@ -23,20 +23,23 @@
             <h3 class="entry__title p-name">{{ entry.data.title }}</h3>
         {% endif %}
 
-        {% if entry.data.start %}
-        <p class="entry__time">
-            <time class="dt-start" datetime="{{ entry.data.start | dateToFormat("yyyy-MM-dd") }}">
-                {{ entry.data.start | dateToFormat("MM/yyyy") }}
-            </time>
-            <span>&ndash;</span>
-            {% if entry.data.end %}
-                <time class="dt-end" datetime="{{ entry.data.end | dateToFormat("yyyy-MM-dd") }}">
-                    {{ entry.data.end | dateToFormat("MM/yyyy") }}
+
+        {% if entries != collections.projects %}
+            {% if entry.data.start %}
+            <p class="entry__time">
+                <time class="dt-start" datetime="{{ entry.data.start | dateToFormat("yyyy-MM-dd") }}">
+                    {{ entry.data.start | dateToFormat("MM/yyyy") }}
                 </time>
-            {% else %}
-                <span>{{ strings.labels.present }}</span>
+                <span>&ndash;</span>
+                {% if entry.data.end %}
+                    <time class="dt-end" datetime="{{ entry.data.end | dateToFormat("yyyy-MM-dd") }}">
+                        {{ entry.data.end | dateToFormat("MM/yyyy") }}
+                    </time>
+                {% else %}
+                    <span>{{ strings.labels.present }}</span>
+                {% endif %}
+            </p>
             {% endif %}
-        </p>
         {% endif %}
 
         {% if entry.data.dateReceived %}

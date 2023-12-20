@@ -47,7 +47,7 @@ module.exports = function (config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
-    const collections = ['work', 'education', 'projects', 'awards']
+    const collections = ['work', 'education', 'projects', 'awards', 'community']
     collections.forEach((name) => {
         config.addCollection(name, function (collection) {
             const folderRegex = new RegExp(`\/${name}\/`)
@@ -61,10 +61,36 @@ module.exports = function (config) {
                 return 0
             }
 
-            return collection
-                .getAllSorted()
-                .filter(inEntryFolder)
-                .sort(byStartDate)
+            const byReleaseDate = (a, b) => {
+                if (a.data.releaseDate && b.data.releaseDate) {
+                    return a.data.releaseDate - b.data.releaseDate
+                }
+                return 0
+            }
+
+            const byDateReceived = (a, b) => {
+                if (a.data.dateReceived && b.data.dateReceived) {
+                    return a.data.dateReceived - b.data.dateReceived
+                }
+                return 0
+            }
+
+            if (name == 'projects') {
+                return collection
+                    .getAllSorted()
+                    .filter(inEntryFolder)
+                    .sort(byReleaseDate)
+            } else if (name == 'awards') {
+                return collection
+                    .getAllSorted()
+                    .filter(inEntryFolder)
+                    .sort(byDateReceived)
+            } else {
+                return collection
+                    .getAllSorted()
+                    .filter(inEntryFolder)
+                    .sort(byStartDate)
+            }
         })
     })
 

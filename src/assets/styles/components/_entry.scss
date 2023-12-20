@@ -26,16 +26,12 @@
 
     &__project-release-date {
         color: $gray;
+        font-family: $font-family-base;
+        font-style: normal;
+        font-weight: 400;
         font-size: 1rem;
         letter-spacing: 0.125em;
         text-transform: uppercase;
-    }
-
-    &__project-container {
-        display: flex;
-        grid-template-columns: auto auto;
-        gap: 10px;
-        align-items: end;
     }
 
     &__organization, &__project-role {
