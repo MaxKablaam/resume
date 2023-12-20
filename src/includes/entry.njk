@@ -1,12 +1,11 @@
 <article class="entry">
     <div class="entry__header">
         {% if entries == collections.projects %}
-            <div class="entry__project-container">
-                <h3 class="entry__project-title p-name">{{ entry.data.projectTitle }}</h3>
-                {% if entry.data.releaseDate %}
-                    <p class="entry__project-release-date" datetime="{{ entry.data.releaseDate | dateToFormat("yyyy-MM-dd") }}">{{entry.data.releaseDate | dateToFormat("yyyy")}}</p>
-                {% endif %}
-            </div>
+            <h3 class="entry__project-title p-name">{{ entry.data.projectTitle }}
+            {% if entry.data.releaseDate %}
+                <span class="entry__project-release-date entry__time" datetime="{{ entry.data.releaseDate | dateToFormat("yyyy-MM-dd") }}">{{entry.data.releaseDate | dateToFormat("yyyy")}}</span>
+            {% endif %}
+            </h3>
             {% if entry.data.role %}
                 <p class="entry__project-role">{{ entry.data.role }}</p>
             {% endif %}
@@ -14,20 +13,23 @@
             <h3 class="entry__title p-name">{{ entry.data.title }}</h3>
         {% endif %}
 
-        {% if entry.data.start %}
-        <p class="entry__time">
-            <time class="dt-start" datetime="{{ entry.data.start | dateToFormat("yyyy-MM-dd") }}">
-                {{ entry.data.start | dateToFormat("MM/yyyy") }}
-            </time>
-            <span>&ndash;</span>
-            {% if entry.data.end %}
-                <time class="dt-end" datetime="{{ entry.data.end | dateToFormat("yyyy-MM-dd") }}">
-                    {{ entry.data.end | dateToFormat("MM/yyyy") }}
+
+        {% if entries != collections.projects %}
+            {% if entry.data.start %}
+            <p class="entry__time">
+                <time class="dt-start" datetime="{{ entry.data.start | dateToFormat("yyyy-MM-dd") }}">
+                    {{ entry.data.start | dateToFormat("MM/yyyy") }}
                 </time>
-            {% else %}
-                <span>{{ strings.labels.present }}</span>
+                <span>&ndash;</span>
+                {% if entry.data.end %}
+                    <time class="dt-end" datetime="{{ entry.data.end | dateToFormat("yyyy-MM-dd") }}">
+                        {{ entry.data.end | dateToFormat("MM/yyyy") }}
+                    </time>
+                {% else %}
+                    <span>{{ strings.labels.present }}</span>
+                {% endif %}
+            </p>
             {% endif %}
-        </p>
         {% endif %}
 
         {% if entry.data.dateReceived %}

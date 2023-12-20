@@ -21,6 +21,15 @@ layout: base
             {% include "entrylist.njk" %}
         </section>
 
+        {% if collections.community.length %}
+        <section class="section" id="section-community">
+            <h2 class="section__title">{{ strings.titles.community }}</h2>
+            {% set entries = collections.community %}
+            {% set microformat = "p-experience" %}
+            {% include "entrylist.njk" %}
+        </section>
+        {% endif %}
+
         {% if collections.projects.length %}
         <section class="section" id="section-projects">
             <h2 class="section__title">{{ strings.titles.projects }}</h2>

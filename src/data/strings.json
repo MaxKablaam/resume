@@ -6,7 +6,8 @@
         "skills": "Skills",
         "languages": "Languages",
         "open_source": "Open Source",
-        "awards": "Awards"
+        "awards": "Awards",
+        "community": "Community & Volunteer"
     },
     "labels": {
         "email": "Email",
