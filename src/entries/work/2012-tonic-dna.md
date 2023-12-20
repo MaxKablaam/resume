@@ -7,4 +7,4 @@ start: 2012-07-01
 end: 2014-08-01
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. Sit amet consectetur adipiscing elit.
+My career in animation began at what was then-called Studio Pascal Blais. I was hired for my skills in compositing and VFX for stop-motion style animation. It was here that I began to learn much more about 3D animation and the lighting and rendering pipeline, that would go on to inform future work of mine.

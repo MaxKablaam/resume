@@ -2,7 +2,7 @@
 projectTitle: Retour à Hairy Hill
 projectUrl: https://www.edfilms.net/retour-a-hairy-hill
 role: Houdini Cloth Simulation FX
-organization: ED Films
+organization: E.D. Films
 organizationUrl: https://www.edfilms.net
 location: Montreal, QC
 releaseDate: 2023-05-09
