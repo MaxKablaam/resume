@@ -7,4 +7,4 @@ start: 2022-10-01
 end:
 ---
 
-Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et. In massa tempor nec feugiat nisl. Sed blandit libero volutpat sed cras ornare arcu dui. Morbi leo urna molestie at. Sapien faucibus et molestie ac feugiat sed lectus.
+This non-profit gallery is a pillar of the local arts scene in Montreal. It's widely known in the community for it's biweekly life-drawing evenings and exhibitions spotlighting emerging talent. My volunteering involves hands-on support with art installations and providing technical expertise for various events and displays. Whether it's setting up lighting, audio-visual equipment, or assisting with any other technical aspects of exhibits, I'm glad to help out at a place that is so vital to the local art scene.

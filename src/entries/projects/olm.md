@@ -1,6 +1,6 @@
 ---
 projectTitle: Olm
-projectUrl:
+projectUrl: https://ericmaxkaplin.com/content/projects/olm/
 role: Artist
 organization:
 organizationUrl:
@@ -10,4 +10,4 @@ start: 2023-09-01
 end:
 ---
 
-Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et.
+Personal project. The _Olm_ is both an interactive sculpture and a tool for randomly generating ambient soundscapes and music. 

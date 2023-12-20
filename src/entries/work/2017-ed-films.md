@@ -7,4 +7,6 @@ start: 2017-07-03
 end: 2022-08-22
 ---
 
-Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et. In massa tempor nec feugiat nisl. Sed blandit libero volutpat sed cras ornare arcu dui. Morbi leo urna molestie at. Sapien faucibus et molestie ac feugiat sed lectus.
+After a short period doing freelance work for E.D. Films, they enjoyed working with me so much they offered me a full-time position. I graciously accepted, as they were my favourite client. My list of responsibilities included animation (2D & 3D), technicall direction, tutorial creation (for their once-active YouTube channel), research, pipeline development, digital tool design, and scripting/coding.
+
+While in this position I also began developing the studio infrastructure to be better equiped for bigger and more challenging projects.

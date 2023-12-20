@@ -7,4 +7,4 @@ start: 2023-08-22
 end:
 ---
 
-Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et. In massa tempor nec feugiat nisl. Sed blandit libero volutpat sed cras ornare arcu dui. Morbi leo urna molestie at. Sapien faucibus et molestie ac feugiat sed lectus.
+Guided by a [friend](https://evanmontpellier.net/)'s recommendation, I discovered a vibrant non-profit makerspace in Montreal's Chabanel garment district. Embracing this opportunity, I now work and create within this inspiring studio space. I find myself surrounded by an exceptionally talented and thoughtful group of artists and makers, that give so much to the arts community in Montreal. I feel like I should contribute back in whatever way I can. The Communications Committee is responsible for developing and managing the internal communication systems, ensuring effective collaboration across the organization.
