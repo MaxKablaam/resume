@@ -11,4 +11,4 @@ end: 2023-08-01
 ---
 
 Director: [Daniel Gies](#)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas. Sit amet consectetur adipiscing elit.
+For this project I created a system for generating the paper cloth simulation using Vellum in Houdini.

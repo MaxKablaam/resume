@@ -10,4 +10,4 @@ start: 2010-01-01
 end: 2010-04-17
 ---
 
-Experimental stereoscopic animated short film.
+Experimental stereoscopic animated short film

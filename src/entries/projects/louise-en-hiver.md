@@ -12,4 +12,4 @@ end: 2015-08-01
 
 Director: [Jean-François Laguionie](#) - Client: [Unité Centrale](#)
 
-Animated feature film.
+Animated feature film

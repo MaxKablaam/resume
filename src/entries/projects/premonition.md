@@ -12,4 +12,4 @@ end: 2020-05-05
 
 Director: Barry Bilinksky
 
-Short animated film.
+Short animated film, related to the *Fort Edmonton: Indigenous Peoples Experience*.

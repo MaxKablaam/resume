@@ -8,4 +8,3 @@ end: 2011-05-20
 ---
 
 Graduated with distinction.
-Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et.

@@ -14,4 +14,4 @@ Directors: Mila Aung-Thwin & Van Royko
 
 Client: E.D. Films
 
-Feature documentary film.
+Feature documentary film

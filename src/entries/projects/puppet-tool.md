@@ -10,4 +10,4 @@ start: 2021-01-01
 end: 2023-07-01
 ---
 
-VR tool for creating real-time animation capture and creation.
+I wrote a project proposal for _Puppet Tool_, a software tool that aims to change the way artists create animation, by leveraging real-time technology. The proposal was sent along with a grant application and it was awarded financing from the Canada Media Fund and the Natural Sciences and Engineering Research Council. I led a small (but mighty) team to explore various different technologies, and we came up with some interesting techniques

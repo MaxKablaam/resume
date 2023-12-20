@@ -12,4 +12,4 @@ end: 2017-06-01
 
 Director: Amanda Strong
 
-Short animated film.
+Short animated film
