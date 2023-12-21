@@ -12,4 +12,4 @@ end: 2014-03-01
 
 Director: Kun Chang - Client: Ubisoft
 
-Animated videogame cutscene
+Animated video game cutscene
