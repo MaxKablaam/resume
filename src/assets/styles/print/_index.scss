@@ -88,13 +88,13 @@
         page-break-inside: avoid;
     }
 
-    // #section-introduction {
-    //     page-break-after: avoid;
-    // }
-
-    .section {
+    #section-introduction {
         page-break-after: avoid;
     }
+
+    // .section {
+    //     page-break-after: avoid;
+    // }
 
     #author-copyright {
         display: none;

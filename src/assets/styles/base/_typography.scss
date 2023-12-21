@@ -9,6 +9,10 @@ h6 {
     font-family: $font-family-serif;
     font-weight: 500;
     text-rendering: optimizeLegibility;
+
+    a {
+        color: var(--text-color)
+    }
 }
 
 h1 {
