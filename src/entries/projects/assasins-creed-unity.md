@@ -3,7 +3,7 @@ projectTitle: "Assassin's Creed: Unity"
 projectUrl: 
 role: Animator
 organization: Tonic DNA (formerly Studio Pascal Blais)
-organizationUrl: https://tonicdna.com/en/
+organizationUrl: https://tonicdna.com/
 location: Montreal, QC
 releaseDate: 2014-11-23
 start: 2014-01-01

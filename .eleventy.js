@@ -1,4 +1,5 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
+const url = require('url');
 const markdownIt = require('markdown-it')
 
 const filters = require('./utils/filters.js')
@@ -32,15 +33,39 @@ module.exports = function (config) {
     config.addWatchTarget('./src/assets')
 
     // Markdown
-    config.setLibrary(
-        'md',
-        markdownIt({
-            html: true,
-            breaks: true,
-            linkify: true,
-            typographer: true
-        })
-    )
+    const markdownLib = markdownIt({
+        html: true,
+        breaks: true,
+        linkify: true,
+        typographer: true
+    }).use(function(md) {
+        // Remember the original link render method
+        const defaultRender = md.renderer.rules.link_open || function(tokens, idx, options, env, self) {
+            return self.renderToken(tokens, idx, options);
+        };
+
+        md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+            const aIndex = tokens[idx].attrIndex('href');
+            if (aIndex >= 0) {
+                const href = tokens[idx].attrs[aIndex][1];
+                const currentUrl = url.parse(href);
+                // If the link is external and not an anchor or mailto link
+                if (currentUrl.host && !href.startsWith('#') && !href.startsWith('mailto:')) {
+                    // Add target="_blank"
+                    const targetIndex = tokens[idx].attrIndex('target');
+                    if (targetIndex < 0) {
+                        tokens[idx].attrPush(['target', '_blank']);
+                    } else {
+                        tokens[idx].attrs[targetIndex][1] = '_blank';
+                    }
+                }
+            }
+            // Pass token to default renderer
+            return defaultRender(tokens, idx, options, env, self);
+        };
+    });
+
+    config.setLibrary('md', markdownLib);
 
     // Layouts
     config.addLayoutAlias('base', 'base.njk')

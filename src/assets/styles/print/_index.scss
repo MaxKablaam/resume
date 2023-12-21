@@ -101,6 +101,8 @@
     }
 
     a {
-        color: var(--text-color)
+        color: var(--text-color);
+        pointer-events: none;
+        cursor: pointer;
     }
 }
