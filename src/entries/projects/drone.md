@@ -1,6 +1,6 @@
 ---
 projectTitle: Drone
-projectUrl: https://youtu.be/RubSLGTrdOA?si=rUivF4ovOIKFM9vW
+projectUrl: "https://youtu.be/RubSLGTrdOA?si=rUivF4ovOIKFM9vW"
 role: 3D rigging, animation & rendering
 organization: E.D. Films
 organizationUrl: https://www.edfilms.net
