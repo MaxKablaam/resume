@@ -1,7 +1,7 @@
 ---
 title: Freelance Animation & VFX
 organization: Eric Max Kaplin
-organizationUrl: https://maxkaplin.com/
+organizationUrl: 
 location: Montreal, QC
 start: 2014-08-01
 end: 2017-07-01

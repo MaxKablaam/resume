@@ -10,6 +10,6 @@ start: 2012-04-01
 end: 2012-06-01
 ---
 
-Directors: [Chris Lavis & Maciek Szczerbowski](#)
+Directors: [Chris Lavis & Maciek Szczerbowski](https://www.instagram.com/clydehenryproductions)
 
 Short film

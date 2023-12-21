@@ -10,5 +10,5 @@ start: 2019-07-01
 end: 2023-08-01
 ---
 
-Director: [Daniel Gies](#)
+Director: Daniel Gies
 For this project I created a system for generating the paper cloth simulation using Vellum in Houdini.

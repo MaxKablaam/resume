@@ -10,8 +10,8 @@ start: 2016-09-01
 end: 2016-10-01
 ---
 
-Director: [Félix Dufour-Laperrière](#)
+Director: [Félix Dufour-Laperrière](https://felixdl.com/en)
 
-Client: [Unité Centrale](#)
+Client: [Unité Centrale](https://www.unitecentrale.ca/)
 
 Animated feature film

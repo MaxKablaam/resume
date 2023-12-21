@@ -10,4 +10,4 @@ start: 2023-09-01
 end:
 ---
 
-Personal project. The _Olm_ is both an interactive sculpture and a tool for randomly generating ambient soundscapes and music. 
+This personal project is both an interactive sculpture and a tool for randomly generating ambient soundscapes and music. 

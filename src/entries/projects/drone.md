@@ -10,6 +10,6 @@ start: 2022-03-01
 end: 2022-05-05
 ---
 
-Directed by [Sean Buckelew](#)
+Directed by [Sean Buckelew](https://www.seanbuckelew.com/)
 
 For this short animated film, I was in charge of animating and rendering the 3D shots of the drone. The interesting challenge of this project was finding a way to render the 3D model so it would match the style of the 2D animated characters.
