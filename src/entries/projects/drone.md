@@ -5,9 +5,9 @@ role: 3D rigging, animation & rendering
 organization: E.D. Films
 organizationUrl: https://www.edfilms.net
 location: Montreal, QC
-releaseDate: 2023-02-05
-start: 2022-03-01
-end: 2022-05-05
+releaseDate: 2022-06-01
+start:
+end:
 ---
 
 Directed by [Sean Buckelew](https://www.seanbuckelew.com/)
