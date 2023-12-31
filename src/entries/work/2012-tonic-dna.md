@@ -1,5 +1,5 @@
 ---
-title: SFX Animator & Compositor
+title: VFX Animator & Compositor
 organization: Tonic DNA (formerly Studio Pascal Blais)
 organizationUrl: https://tonicdna.com/
 location: Montreal, QC
