@@ -2,7 +2,7 @@
     <div class="entry__header">
         {% if entries == collections.projects %}
             {% if entry.data.projectUrl %}
-                <a href="{{ entry.data.projectUrl}}" target="_blank">
+                <a href="{{ entry.data.projectUrl}}" target="_blank" rel="noopener noreferrer">
                     <h3 class="entry__project-title p-name">{{ entry.data.projectTitle }}
                     {% if entry.data.releaseDate %}
                         <span class="entry__project-release-date entry__time" datetime="{{ entry.data.releaseDate | dateToFormat("yyyy-MM-dd") }}">{{entry.data.releaseDate | dateToFormat("yyyy")}}</span>
