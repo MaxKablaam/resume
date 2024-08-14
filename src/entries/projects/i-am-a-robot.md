@@ -1,6 +1,6 @@
 ---
 projectTitle: I Am A Robot
-projectUrl: 
+projectUrl: https://www.youtube.com/watch?v=nx6tql59188
 role: 3D animation supervision, rigging, animation & rendering
 organization: E.D. Films
 organizationUrl: https://www.edfilms.net
