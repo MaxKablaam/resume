@@ -7,4 +7,4 @@ start: 2024-03-01
 end: 2024-08-01
 ---
 
-TODO: Description of work
+At the renowned Felix & Paul Studios, I worked as a Senior Technical Artist. During this time, I contributed to a top-secret VR project, creating assets in Unreal Engine with a focus on the Niagara particle system. My tenure at Felix and Paul Studios was brief, as I was accepted into graduate school at CalArts and chose to pursue that opportunity.
