@@ -1,6 +1,6 @@
 ---
 projectTitle: Hellbrunn Automatons - Justin Wright
-projectUrl: 
+projectUrl: https://ericmaxkaplin.com/content/projects/hellbrunn/
 role: Co-Director & 3D animation, lighting & rendering
 organization:
 organizationUrl:
