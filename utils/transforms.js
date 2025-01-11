@@ -1,4 +1,4 @@
-const htmlmin = require('html-minifier')
+const htmlmin = require('html-minifier-terser')
 const critical = import('critical');
 const buildDir = 'dist'
 
@@ -14,9 +14,10 @@ module.exports = {
     htmlmin: function (content, outputPath) {
         if (shouldTransformHTML(outputPath)) {
             return htmlmin.minify(content, {
-                useShortDoctype: true,
+                collapseWhitespace: true,
                 removeComments: true,
-                collapseWhitespace: true
+                minifyCSS: true,
+                minifyJS: true,
             })
         }
         return content
