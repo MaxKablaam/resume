@@ -5,7 +5,7 @@
 const ENTRY_FILE_NAME = 'main.scss'
 
 const path = require('path')
-const sass = require('node-sass')
+const sass = require('sass')
 const CleanCSS = require('clean-css')
 const cssesc = require('cssesc')
 const isProd = process.env.ELEVENTY_ENV === 'production'
@@ -29,12 +29,12 @@ module.exports = class {
                 config.sourceMapEmbed = true
                 config.outputStyle = 'expanded'
             }
-            return sass.render(config, (err, result) => {
-                if (err) {
-                    return reject(err)
-                }
-                resolve(result.css.toString())
-            })
+            try {
+                const result = sass.compile(config.file, config)
+                resolve(result.css)
+            } catch (err) {
+                reject(err)
+            }
         })
     }
 
