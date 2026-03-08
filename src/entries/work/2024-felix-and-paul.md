@@ -7,4 +7,4 @@ start: 2024-03-01
 end: 2024-08-01
 ---
 
-At the renowned Felix & Paul Studios, I worked as a Senior Technical Artist. During this time, I contributed to a top-secret VR project, creating assets in Unreal Engine with a focus on the Niagara particle system. My tenure at Felix and Paul Studios was brief, as I was accepted into graduate school at CalArts and chose to pursue that opportunity.
+At Felix & Paul Studios, I worked as a Senior Technical Artist creating assets for the *Interstellar Arc* project in Unreal Engine, primarily using the Niagara particle system. The major challenge was achieving visual realism within the strict performance constraints of the Meta Quest 2. My tenure was brief and early in production, as I left to pursue graduate studies at CalArts. However, my key contributions—including a realistic bonfire, the Milky Way galaxy, and the "Celestia" musical sculpture—remain in the final experience, currently open to the public in Las Vegas, NV.

@@ -26,7 +26,7 @@
     "@babel/preset-env": "^7.13.12",
     "babel-loader": "^8.2.2",
     "clean-css": "^5.1.2",
-    "critical": "^6.0.4",
+    "critical": "^7.2.1",
     "cssesc": "^3.0.0",
     "del-cli": "^3.0.1",
     "focus-visible": "^5.2.0",
@@ -41,6 +41,9 @@
     "sass": "^1.83.1",
     "svg-sprite": "^2.0.2",
     "webpack": "^5.28.0"
+  },
+  "overrides": {
+    "minimatch": "^3.1.2"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"

@@ -1,5 +1,5 @@
 ---
-title: Tech Advisor
+title: Technology Advisor
 organization: Gallery Parfois
 organizationUrl: https://www.galleryparfois.com/
 location: Montreal, QC

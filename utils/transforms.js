@@ -33,7 +33,7 @@ module.exports = {
                     width: 1280,
                     height: 800
                 }
-                const { html } = await critical.generate(config)
+                const { html } = await (await critical).generate(config)
                 return html
             } catch (err) {
                 console.error(err)
