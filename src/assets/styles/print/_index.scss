@@ -92,6 +92,10 @@
         page-break-after: avoid;
     }
 
+    #section-experience {
+        page-break-inside: auto;
+    }
+
     // .section {
     //     page-break-after: avoid;
     // }
