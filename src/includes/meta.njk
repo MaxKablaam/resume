@@ -4,17 +4,17 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ pageTitle }}</title>
+<title>{{ pageTitle | safe }}</title>
 
 {# General #}
-<meta name="description" content="{{ pageDescription }}">
+<meta name="description" content="{{ pageDescription | safe }}">
 <meta name="format-detection" content="telephone=no">
 <link rel="canonical" href="{{ absolutePageUrl }}">
 
 {# Open Graph #}
-<meta property="og:site_name" content="{{ pageTitle }}">
-<meta property="og:title" content="{{ pageTitle }}">
-<meta property="og:description" content="{{ pageDescription }}">
+<meta property="og:site_name" content="{{ pageTitle | safe }}">
+<meta property="og:title" content="{{ pageTitle | safe }}">
+<meta property="og:description" content="{{ pageDescription | safe }}">
 <meta property="og:url" content="{{ absolutePageUrl }}">
 <meta property="og:locale" content="{{ meta.locale }}">
 <meta name="twitter:card" content="summary">

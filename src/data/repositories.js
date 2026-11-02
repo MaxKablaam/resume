@@ -1,4 +1,4 @@
-const Cache = require('@11ty/eleventy-cache-assets')
+const Cache = require('@11ty/eleventy-fetch')
 const orderBy = require('lodash/orderBy')
 
 // if you want to display your most starred github repositories,
